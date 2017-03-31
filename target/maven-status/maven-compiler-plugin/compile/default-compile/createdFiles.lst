@@ -1,0 +1,14 @@
+com\examples\wsdl\personservice\Documents.class
+com\routes\MyRouteWebService$1.class
+com\beanprocessor\PersonBeanProcessor.class
+com\examples\wsdl\personservice\Person.class
+com\examples\wsdl\personservice\ObjectFactory.class
+com\examples\wsdl\personservice_wsdl\PersonPortType.class
+com\responses\PersonResponse.class
+com\responses\ServiceResponsePerson.class
+com\examples\wsdl\personservice\package-info.class
+com\routes\MyRouteWebService.class
+com\responses\IResponsePerson.class
+com\examples\wsdl\personservice_wsdl\PersonService.class
+com\routes\MyRouteWebService$2.class
+com\examples\wsdl\personservice_wsdl\Person_PortImpl.class

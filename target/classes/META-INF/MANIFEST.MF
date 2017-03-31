@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1490977141813
+Build-Jdk: 1.8.0_101
+Built-By: victor.tripeno
+Bundle-Description: Empty Camel Blueprint Example
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Empty Camel Blueprint Example [expor-soap]
+Bundle-SymbolicName: expor-soap
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.beanprocessor;uses:="com.responses,com.examples.wsdl
+ .personservice";version="1.0.0.SNAPSHOT",com.examples.wsdl.personservic
+ e;uses:="javax.xml.bind.annotation";version="1.0.0.SNAPSHOT",com.exampl
+ es.wsdl.personservice_wsdl;uses:="javax.jws,javax.jws.soap,javax.xml.bi
+ nd.annotation,com.examples.wsdl.personservice,javax.xml.ws,javax.xml.na
+ mespace";version="1.0.0.SNAPSHOT",com.responses;uses:="javax.jws,javax.
+ xml.soap,com.examples.wsdl.personservice,javax.xml.namespace";version="
+ 1.0.0.SNAPSHOT",com.routes;uses:="org.apache.camel,org.apache.camel.bui
+ lder,com.responses,com.examples.wsdl.personservice_wsdl,org.apache.came
+ l.component.cxf,org.apache.camel.model";version="1.0.0.SNAPSHOT"
+Import-Package: javax.jws,javax.jws.soap,javax.xml.bind.annotation,javax
+ .xml.namespace,javax.xml.soap,javax.xml.ws,org.apache.camel;version="[2
+ .17,3)",org.apache.camel.builder;version="[2.17,3)",org.apache.camel.co
+ mponent.cxf;version="[2.15,3)",org.apache.camel.model;version="[2.17,3)
+ ",org.osgi.service.blueprint;version="[1.0.0,2.0.0)"
+Tool: Bnd-1.50.0
